@@ -16,7 +16,7 @@
 	<description>Tweet Application</description>
 	<properties>
 		<java.version>11</java.version>
-		<maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
+<!--		<maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>-->
 	</properties>
 	<dependencies>
 		<dependency>
@@ -84,6 +84,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
