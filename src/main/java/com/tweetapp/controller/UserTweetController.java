@@ -25,7 +25,7 @@ public class UserTweetController {
 
     @GetMapping(path = "/test")
     public String gettest() {
-        return "it is done Jenkins";
+        return "it is done Jenkins 12";
     }
 
     @PostMapping(path = "/register")
